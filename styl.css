@@ -111,7 +111,7 @@ box-shadow: none;
         display: flex;
         width: 30vw;
         height: 30vw;
-    background: red;
+    background: rgb(132, 123, 123);
     border-radius: 50%;
 
     }
