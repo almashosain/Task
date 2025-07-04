@@ -1,0 +1,46 @@
+body{
+    background: rgb(88, 88, 93);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80%;
+    padding: 25px 12%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+} 
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul 
+{
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 100;
+    transition: .5s;
+} 
+
+.navbar ul li:hover a,
+.navbar ul li.active a {
+    color: green;
+}
+.navbar ul li.active a{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
